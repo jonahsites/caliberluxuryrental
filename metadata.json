@@ -1,0 +1,6 @@
+{
+  "name": "Caliber Luxury Rental",
+  "description": "Austin's premier exotic and luxury car rentals, delivered like a concierge service. Exclusive vehicles, white-glove delivery, and unforgettable experiences in Austin, TX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
