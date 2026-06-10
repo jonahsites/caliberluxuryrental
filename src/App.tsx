@@ -31,14 +31,14 @@ export default function App() {
     }
   }, [isBookingOpen]); // refresh when modal closes (which might add reservations)
 
+  const RESERVATION_URL = "https://caliber-luxury-rentals1.caagcrm.com/public/car-rental/reservations/step1?brand=hosrfsuo-d1f0-sbmv-ke4a-dexdet6iywb0&new=1";
+
   const handleBookCar = (car: Car) => {
-    setSelectedCar(car);
-    setIsBookingOpen(true);
+    window.open(RESERVATION_URL, '_blank');
   };
 
   const handleReserveGeneral = () => {
-    setSelectedCar(null);
-    setIsBookingOpen(true);
+    window.open(RESERVATION_URL, '_blank');
   };
 
   const handleSectionScroll = (id: string) => {
